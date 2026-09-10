@@ -4,6 +4,10 @@
 
 综合参考 [zhanwen/MathModel](https://github.com/zhanwen/MathModel)、[personqianduixue/Math_Model](https://github.com/personqianduixue/Math_Model) 和 [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent)。技能内容为独立整理与实现，不分发上游论文、教材或模板全文。
 
+## 写作经验与成稿样例更新
+
+根据两份用户PDF，重整[论文写作指南](math-modeling/references/paper-writing.md)：区分重述、分析和建模前准备，补充标题、逐问摘要、关键词、符号表、图表解释与明确答案；保留必要验证，不按条数美化优缺点。检查7页经验分享及成稿15个相关原页，记录[采用范围、修正及模板差异](math-modeling/references/writing-source-review.md)。仅更新说明，不把成稿作为已验证标准答案，也不分发原PDF。
+
 ## 2026国赛格式更新
 
 根据用户提供的`format2026.doc`及核对后的官方文件，增加[2026国赛专用规则](math-modeling/references/cumcm-2026-format.md)，接入项目启动、写作、模板选择和交付验收。覆盖页面与双版本、正文无目录且不超过30页、完整代码附录、匿名、两个电子文件各自20MB上限，以及AI声明和详情PDF。仅按赛事/年份启用；不改变MCM/ICM或课程项目要求。原始文件未收入仓库。
@@ -75,7 +79,7 @@ python3 -m venv .venv
 .venv/bin/python -m unittest discover -s tests -v
 ```
 
-三仓库优化时，完整依赖环境下60项测试通过。本次2026格式更新仅修改技能说明，核验技能结构、内部链接和规范对应关系。没有数值依赖时21项数值测试会明确跳过。实验只用合成参数，另有P25表数的局部算术检查；结果不代表真实赛题成绩。生成过程写入独立目录并覆盖同名演示文件。
+三仓库优化时，完整依赖环境下60项测试通过。后续2026格式与写作资料更新仅修改技能说明，核验技能结构、内部链接及资料采用范围。没有数值依赖时21项数值测试会明确跳过。实验只用合成参数，另有P25表数的局部算术检查；结果不代表真实赛题成绩。生成过程写入独立目录并覆盖同名演示文件。
 
 索引为两个资料库的9,893条文件元数据、7,724个blob，不提供PDF全文搜索。`source`支持论文、算法、模板实现三层台账；第三仓库没有混入论文目录统计。证据检查器只核对声明的文件和数值字段，调度检查器只核对已编码的事件约束，两者均不能证明模型完整或最优。
 

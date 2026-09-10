@@ -18,7 +18,7 @@ description: 面向本科数学建模（全国大学生数学建模竞赛、MCM/
 | 已有模型或代码 | 检查数学定义与实现是否一致，再处理失败点 | [算法契约](references/algorithm-playbook.md)、[计算实现](references/computing.md) |
 | 算法学习、移植、小例复现 | 选同结构小例，以独立标准核验 | [算法实验](references/algorithm-lab.md)、[验证方法](references/validation.md) |
 | 数据图、技术路线图 | 明确支持的判断、数据/方法来源与目标文档 | [图表指南](references/visualization.md) |
-| 论文撰写、摘要、修改 | 从已核验的结果组织论证，标出缺证结论 | [论文写作](references/paper-writing.md) |
+| 论文撰写、摘要、修改 | 从已核验结果逐问组织摘要与正文，明确答案和图表解释 | [论文写作](references/paper-writing.md)；参考成稿时看[写作资料评析](references/writing-source-review.md) |
 | 论文排版、交付前审查 | 核对数字、引用、真实编译与渲染页面 | [交付验收](references/delivery-review.md) |
 | 学习、复盘优秀论文 | 选同题不同解，比较假设、验证和代价 | [案例库](references/casebook.md)、[新增案例](references/casebook-expanded.md) |
 | 查找三个来源仓库的资料 | 按赛事和题目检索，再确认原文 | [来源地图](references/source-map.md)、[模板实现评析](references/template-implementation-review.md) |
