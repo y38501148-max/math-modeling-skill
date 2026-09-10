@@ -91,3 +91,7 @@ python3 scripts/catalog.py source P19
 ## 内容来源与权利
 
 两仓库根目录未识别到统一许可证；第二个仓库算法子目录有独立 MIT 许可证（L01），不能推定其覆盖论文、书籍和其他目录。本技能只公开原创分析、脚本及文件级引用元数据；不打包原论文、课件、书籍、水印页面、附件数据或第三方源程序。引用保留原作者及来源的权利，历史结论均保持归因。
+
+## 工作流优化的独立来源
+
+MathModelAgent 的技能审阅及固定提交另记在 [工作流来源评析](workflow-source-review.md) 和 [workflow-sources.json](workflow-sources.json)。原始论文目录与 sources.json 保持两仓库的历史索引范围；工作流文件不混入论文统计。

@@ -4,6 +4,15 @@
 
 由 [zhanwen/MathModel](https://github.com/zhanwen/MathModel) 与 [personqianduixue/Math_Model](https://github.com/personqianduixue/Math_Model) 的资料整理形成。重点研读 **14 篇论文、9 个题目**，对照 **7 份评阅材料**；全量索引 **9,893 个文件条目**，按 Git blob SHA 对应 **7,724 个独立内容**。这些文件数量不代表论文数量或已读全文数量。
 
+## 本次工作流优化
+
+参考 [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) 的 10 个技能入口和相关规范/检查代码，补强完整项目交接、歧义预检、实现与实验、图表溯源、论文编译和逐页验收。保持本科国赛与美赛重点，沿用已有偏好，并支持单问及局部修改。
+
+- 新增阶段恢复与上游变更传播，避免继续使用过期结果。
+- 新增原创结果证据检查器，核对文件 SHA-256、JSON 指标字段、百分比换算和显示容差。
+- 验收明确区分已通过、失败、未执行和不适用；不以脚本通过代替论文或模型完整验证。
+- 独立整理上游规则，未复制其模板和脚本。具体采用、修正和阅读边界见 [工作流来源评析](math-modeling/references/workflow-source-review.md)。
+
 ## 直接阅读
 
 - [SKILL.md](math-modeling/SKILL.md)：实际执行入口。
@@ -53,6 +62,12 @@ math-modeling/
   SKILL.md
   agents/openai.yaml
   references/
+    project-workflow.md     完整项目、阶段交接与恢复
+    computing.md            实现、实验与环境
+    visualization.md        数据图与方法图
+    delivery-review.md      编译、逐页查看与交付验收
+    evidence-checker.md     数值证据工具契约
+    workflow-source-review.md / workflow-sources.json
     model-selection.md      按问题结构选模型
     validation.md           可行性、样本外、数值与仿真检验
     paper-writing.md        从结果证据组织论文
@@ -65,9 +80,11 @@ math-modeling/
   scripts/
     catalog.py
     check_schedule.py
+    check_evidence.py
   assets/
     modeling-brief.md
     schedule-example.json
+    evidence-example/       合成指标与台账示例
 docs/
 tests/
 ```
@@ -80,8 +97,11 @@ Python 3.9+，只用标准库，无 API Key、账户或联网依赖。
 python3 math-modeling/scripts/catalog.py search --query "2018 A229" --unique
 python3 math-modeling/scripts/catalog.py source P08
 python3 math-modeling/scripts/check_schedule.py math-modeling/assets/schedule-example.json
+python3 math-modeling/scripts/check_evidence.py math-modeling/assets/evidence-example/manifest.json
 python3 -m unittest discover -s tests -v
 ```
+
+结果证据工具通过仅表示声明的文件和字段一致，不证明模型正确或正文完整；完整验收还需语义检查、真实编译和页面审阅。当前 **37 项标准库工具测试通过**。
 
 索引检索是路径/标题的元数据搜索，不是 PDF 全文搜索。调度检查器检查显式声明的独占资源、工序、日历、时长和时间窗；它不是完整 RGV 求解器，也不能证明最优或替代题意核验。
 

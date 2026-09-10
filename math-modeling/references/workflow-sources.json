@@ -1,0 +1,112 @@
+{
+  "repository": "jihe520/MathModelAgent",
+  "commit": "83d8783187a2d29dda1b046cb667009cc50c8203",
+  "retrieved": "2026-09-10",
+  "license_note": "No root license detected; docs/md/License.md contains custom use and distribution restrictions. No license inferred for independent implementation.",
+  "read_files": [
+    {
+      "path": "docs/md/License.md",
+      "blob": "756b0138f66897d34af884d4f84a11bcecb47b84",
+      "sha256": "138ed0a8abfa574b8c8b19fd53b18bb3c2854015f54cc24ce8f1952b82eab39d",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/docs/md/License.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/1start-mathmodel/SKILL.md",
+      "blob": "ce215597b5bdef4189b07cd70d43610a68cffe6a",
+      "sha256": "6aeb56ecbfddff3a7a8e0194dd484d4332fda9f7bf6cf871317fbbfafc25a82a",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/1start-mathmodel/SKILL.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/2analysis-modeling/SKILL.md",
+      "blob": "ac650238f5136c12568bd03d38c160c8c0f980a0",
+      "sha256": "01e63f3fb60a859db61f5c65739c03082f3bef62fb7321ee0c950768481a8c81",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/2analysis-modeling/SKILL.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/3coding-visual/SKILL.md",
+      "blob": "0e9fd73ee26589eeed659cf99b636a54e6c5f6b0",
+      "sha256": "0181dae2bf11dc9b0f2040973fd782ad18bff68ae678cefbb8a31ee948073212",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/3coding-visual/SKILL.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/4drawio/SKILL.md",
+      "blob": "76ae31d56e7d9ffbba24970f10ec347c8c738075",
+      "sha256": "eb531bcac084d29ec6e7edf5c81eda2dea498106be2eec0400c84f34237268e7",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/4drawio/SKILL.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/5writing/SKILL.md",
+      "blob": "89f3372bec5b624fc9b01a4d76802dc84c3cddbe",
+      "sha256": "9dd985cf54d9b6b3f12ee1fb146602f7ebf09e41f46842ecd90f5a9125a89684",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/5writing/SKILL.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/6verity/SKILL.md",
+      "blob": "1d0f6bf8ea35e9c1a699ab891a4c8aaf9cb7c3ad",
+      "sha256": "01c23df712ae126d4b71fadba3abf9df974c09bc6b8491e148f7dbf9fb1b968e",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/6verity/SKILL.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/6verity/scripts/writing_check.sh",
+      "blob": "1bcbb130139e0f493f6b9ee8471b504037cdbb40",
+      "sha256": "a7230a987680720d4b5637f3787442c8b5c4f8090e7cf95ea836a5b82596d481",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/6verity/scripts/writing_check.sh",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/_references/SKILL.md",
+      "blob": "6799163fca4b911548f89d9c0faad5deb7bd7295",
+      "sha256": "efa3fb350487c791bf38b7e2559ff3bb0a3e02ebad3032a4b8f158ed107f2d88",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/_references/SKILL.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/_references/math_modeling_norms.md",
+      "blob": "051276b8ebbe7c5ad5dc7b4903724715ff6a63e4",
+      "sha256": "aa89b2cebb59a33bc9a07ebe86cce2eb273fa7fef8ac0dc4d633fa06fa1ecf64",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/_references/math_modeling_norms.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/doctor/SKILL.md",
+      "blob": "e8958e18d3b261779978b44cb25a905e5c0a7626",
+      "sha256": "f520a6a557daefac272a5c602eec706c8c2b63f65af48871e1ea28f197706af0",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/doctor/SKILL.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/mathmodel-figure-templates/SKILL.md",
+      "blob": "1c3cb7c0ce8a8788904b684c16869257d1ebd25c",
+      "sha256": "884663b433102dfe87cd590785aafde728a906c12d15a7586c47c668bc7f7214",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/mathmodel-figure-templates/SKILL.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/skills.sh.json",
+      "blob": "58d26a525d10097c06a2c43dba1bf939ffab99ca",
+      "sha256": "88bc8bfae7adea2df31107081bed4675c5872ee1d759eb3dcce96ec687b70584",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/skills.sh.json",
+      "scope": "Read complete file; no upstream file redistributed"
+    },
+    {
+      "path": "skills/typst-author/SKILL.md",
+      "blob": "d71ffbcd47320493455193dfc62fe095bf418baa",
+      "sha256": "575ab79794b61b74f7ac28be569216d09e3d4d78b2bd5eeb36647e9d32c6b460",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/skills/typst-author/SKILL.md",
+      "scope": "Read complete file; no upstream file redistributed"
+    }
+  ],
+  "template_inventory_only": {
+    "entry_files": 34,
+    "typst": 17,
+    "latex": 17,
+    "full_template_validation": false
+  }
+}

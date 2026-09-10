@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "description": "Synthetic fixture for numeric provenance checking only",
+  "artifacts": [
+    {
+      "id": "run",
+      "path": "result.json",
+      "sha256": "eafa4fc21718935c412f44243c8130b0823cf77c191bcdd04e54f1a66edf487c"
+    }
+  ],
+  "claims": [
+    {
+      "id": "q1-rate",
+      "artifact": "run",
+      "pointer": "/q1/rate",
+      "value": 86.6,
+      "scale": 100,
+      "unit": "percent",
+      "status": "synthetic",
+      "location": "Example table: completion rate"
+    },
+    {
+      "id": "q1-rmse",
+      "artifact": "run",
+      "pointer": "/q1/rmse",
+      "value": 1.23,
+      "abs_tol": 0.005,
+      "unit": "example unit",
+      "status": "synthetic",
+      "location": "Example table: RMSE"
+    }
+  ]
+}

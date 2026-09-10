@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-10",
+  "upstream_commit": "83d8783187a2d29dda1b046cb667009cc50c8203",
+  "tool_tests": {
+    "passed": 37,
+    "original": 20,
+    "new": 17
+  },
+  "skill_format": "PASS",
+  "source_files_blob_verified": 14,
+  "upstream_skill_entrypoints_read": 10,
+  "local_markdown_links_at_check": 53,
+  "broken_links": 0,
+  "installed_skill_matches_repository": true,
+  "example": {
+    "artifact_count": 1,
+    "claim_count": 2,
+    "status": "PASS",
+    "synthetic_warnings": 2
+  },
+  "not_performed": [
+    "upstream template compilation",
+    "complete new contest paper generation",
+    "independent agent behavioral evaluation"
+  ]
+}
