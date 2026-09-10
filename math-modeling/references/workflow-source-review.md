@@ -35,3 +35,7 @@
 上游根目录未识别统一许可证，但 [docs/md/License.md](https://github.com/jihe520/MathModelAgent/blob/83d8783187a2d29dda1b046cb667009cc50c8203/docs/md/License.md) 列明个人免费、商业用途及分发限制。不能将该项目当作任意复制再许可的 MIT 仓库。本次只学习公开工作流思路，独立撰写文字、数据契约和 Python 检查器；没有复制分发其 SKILL 全文、脚本、模板、字体或图像。第三方的限制不因本仓库原创内容采用 MIT 而改变。
 
 保留两个原始资料仓库的 14 篇本科重点论文、9 组案例、35 条研读来源和文件目录索引；它们与新增工作流来源分表记录。新增工作流审阅不增加论文阅读数量，也不代表复现了 MathModelAgent 的完整产品或全部模板。
+
+## 实现层补充审阅
+
+后续已读取四个本科/MCM模板族、绘图入口及三个具体图脚本。详见[模板实现评析](template-implementation-review.md)及[50条源文件台账](implementation-review.json)。这些是源码静态审阅，未执行上游排版工具；新版的原创求解/图文交接由[算法实验](algorithm-lab.md)独立验证。

@@ -19,9 +19,9 @@
 4. 两仓库算法、写作、模板目录：用于补充背景和实现，不取代原题与结果验证。
 5. 第一个仓库 `国赛论文`、`国赛试题`及第二个仓库 `2-0研赛题目+论文`：大量为研究生竞赛资料。本索引将这些集合保守标为 graduate；这是集合级路由，不声称逐个文件均核验过组别。
 
-路径分类结果：cumcm 2,905，mcmicm 868，graduate 2,866，general 3,254。cumcm 集合含本科与专科材料；本技能的 14 篇核心案例为本科国赛 A/B 与 MCM 题目。`undergraduate` 检索范围包含 cumcm 与 mcmicm，其他范围需显式选择。
+路径分类结果：cumcm 2,905，mcmicm 868，graduate 2,866，general 3,254。cumcm 集合含本科与专科材料；本技能的 21 篇核心案例为本科国赛 A/B 与 MCM 题目。`undergraduate` 检索范围包含 cumcm 与 mcmicm，其他范围需显式选择。
 
-## 实际研读
+## 初次研读（历史记录）
 
 - 核心：14 篇论文、9 个题目，阅读摘要及与建模、算法、验证有关的重点章节；关键公式/表格核对 8 个 PDF 页面。
 - 对照：7 份评阅文件，其中 R06 同时包含两道题；另读 4 份核心赛题、4 个代码示例、3 份写作/算法经验材料。
@@ -95,3 +95,25 @@ python3 scripts/catalog.py source P19
 ## 工作流优化的独立来源
 
 MathModelAgent 的技能审阅及固定提交另记在 [工作流来源评析](workflow-source-review.md) 和 [workflow-sources.json](workflow-sources.json)。原始论文目录与 sources.json 保持两仓库的历史索引范围；工作流文件不混入论文统计。
+
+## 本轮三仓库扩展
+
+新增7篇论文后共21篇、15组题目；新增7个原PDF页面核验，累计15页。sources.json现有44条记录；额外2份赛事结果新闻稿按contest-context记录。此前4个代码示例包含在本轮199个核心文件中，不能相加计数。
+
+两个资料库代码盘点1478条，199文件取得并哈希校验，197静态审阅（194个blob），仅A196原C++实际运行。A156绘图/A158大型测试驱动未审阅。见[算法指南](algorithm-playbook.md)、[算法台账](algorithm-review.json)、[完整代码盘点](algorithm-inventory.jsonl.gz)。随书附件与压缩包仍主要是索引级覆盖。
+
+MathModelAgent在前轮入口规范之外新增50个实现文件审阅，详见[实现评析](template-implementation-review.md)与[台账](implementation-review.json)。使用catalog.py source T057可取第三仓库固定链接，但search目录统计仍保持两个资料库范围。
+
+| ID | 文件 | 重点PDF页 | 原页视觉核验 |
+|---|---|---|---|
+| P21 | [基于排序检验的葡萄酒评价](https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/2-1%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE%2B%E8%AE%BA%E6%96%87/2012/A301.pdf) | 2, 3, 4, 5, 6, 7, 20 | 7 |
+| P22 | [葡萄酒的质量分析与评价](https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/2-1%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE%2B%E8%AE%BA%E6%96%87/2012/A335.pdf) | 1, 9, 10, 11, 28 | 10 |
+| P23 | [碎纸复原模型与算法](https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/2-1%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE%2B%E8%AE%BA%E6%96%87/2013/B506.pdf) | 3, 4, 5, 6, 7, 16, 17, 18, 19 | 7 |
+| P24 | [论文标题（首页占位；内容为系泊系统设计）](https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/2-1%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE%2B%E8%AE%BA%E6%96%87/2016/A028.pdf) | 1, 4, 5, 6, 7 | 6 |
+| P25 | [小区开放对道路通行的影响](https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/2-1%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE%2B%E8%AE%BA%E6%96%87/2016/B022.pdf) | 1, 19, 20, 24, 25, 26 | 20 |
+| P26 | [Designing the Optimal Snowboard Half-Pipe](https://github.com/zhanwen/MathModel/blob/cd5be91735ebf11d5ee52eb170e86a6d07131977/%E7%BE%8E%E8%B5%9B%E8%AE%BA%E6%96%87/2011%E7%BE%8E%E8%B5%9B%E7%89%B9%E7%AD%89%E5%A5%96%E5%8E%9F%E7%89%88%E8%AE%BA%E6%96%87%E9%9B%86/A-11199-Outstanding.pdf) | 1, 4, 7, 8, 19 | 8 |
+| P27 | [Tracking Serial Criminals with a Road Metric](https://github.com/zhanwen/MathModel/blob/cd5be91735ebf11d5ee52eb170e86a6d07131977/%E7%BE%8E%E8%B5%9B%E8%AE%BA%E6%96%87/2010%E7%BE%8E%E8%B5%9B%E7%89%B9%E7%AD%89%E5%A5%96%E5%8E%9F%E7%89%88%E8%AE%BA%E6%96%87%E9%9B%86/B-7273-Outstanding.pdf) | 1, 4, 5, 6, 11, 17 | 5 |
+| R08 | [2011 MCM Press Release—April 15, 2011](https://github.com/zhanwen/MathModel/blob/cd5be91735ebf11d5ee52eb170e86a6d07131977/%E7%BE%8E%E8%B5%9B%E8%AE%BA%E6%96%87/2011%E7%BE%8E%E8%B5%9B%E7%89%B9%E7%AD%89%E5%A5%96%E5%8E%9F%E7%89%88%E8%AE%BA%E6%96%87%E9%9B%86/Results/2011-Problem-A.pdf) | 1 | 无 |
+| R09 | [2010 MCM Press Release—April 1, 2010](https://github.com/zhanwen/MathModel/blob/cd5be91735ebf11d5ee52eb170e86a6d07131977/%E7%BE%8E%E8%B5%9B%E8%AE%BA%E6%96%87/2010%E7%BE%8E%E8%B5%9B%E7%89%B9%E7%AD%89%E5%A5%96%E5%8E%9F%E7%89%88%E8%AE%BA%E6%96%87%E9%9B%86/Results/2010_MCM_Problem_B.pdf) | 1 | 无 |
+
+新增题目模型及可复现入口见[案例补充](casebook-expanded.md)。本轮原数值运行、教学例与未覆盖范围见[算法实验说明](algorithm-lab.md)。

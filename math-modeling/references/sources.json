@@ -800,6 +800,236 @@
       "pdf_pages_visually_verified": [],
       "execution_status": "not-applicable",
       "award_status": "not-applicable"
+    },
+    {
+      "id": "P21",
+      "path": "2-1国赛题目+论文/2012/A301.pdf",
+      "kind": "paper",
+      "repo": "personqianduixue/Math_Model",
+      "commit": "8783d0d822f89f98aa6182dd933cc2e9f3e2ddce",
+      "sha256": "5b2af41cb63718d5111543b3a1166473af8ec2a7cc16715ed8e442a4be103139",
+      "size": 928180,
+      "url": "https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/2-1%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE%2B%E8%AE%BA%E6%96%87/2012/A301.pdf",
+      "blob_sha": "4ddd28b37740bb99bbe8fb7184eb0917e48a4e3d",
+      "title": "基于排序检验的葡萄酒评价",
+      "pages": 20,
+      "reading_status": "key-sections-analyzed",
+      "pdf_pages_read": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        20
+      ],
+      "pdf_pages_visually_verified": [
+        7
+      ],
+      "execution_status": "not-reproduced",
+      "award_status": "repository-label-only; not independently verified"
+    },
+    {
+      "id": "P22",
+      "path": "2-1国赛题目+论文/2012/A335.pdf",
+      "kind": "paper",
+      "repo": "personqianduixue/Math_Model",
+      "commit": "8783d0d822f89f98aa6182dd933cc2e9f3e2ddce",
+      "sha256": "015c3dfaafbf06a93ae52a00c952373772aec0d006f5883dac202b9927a7a55e",
+      "size": 1361240,
+      "url": "https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/2-1%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE%2B%E8%AE%BA%E6%96%87/2012/A335.pdf",
+      "blob_sha": "a68137212453304c4da03beb2150fd6b4569201e",
+      "title": "葡萄酒的质量分析与评价",
+      "pages": 36,
+      "reading_status": "key-sections-analyzed",
+      "pdf_pages_read": [
+        1,
+        9,
+        10,
+        11,
+        28
+      ],
+      "pdf_pages_visually_verified": [
+        10
+      ],
+      "execution_status": "not-reproduced",
+      "award_status": "repository-label-only; not independently verified"
+    },
+    {
+      "id": "P23",
+      "path": "2-1国赛题目+论文/2013/B506.pdf",
+      "kind": "paper",
+      "repo": "personqianduixue/Math_Model",
+      "commit": "8783d0d822f89f98aa6182dd933cc2e9f3e2ddce",
+      "sha256": "4c01b66554a65ea520ee4f5a7207dee89c6a53986599648b7435143629b5061f",
+      "size": 2666854,
+      "url": "https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/2-1%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE%2B%E8%AE%BA%E6%96%87/2013/B506.pdf",
+      "blob_sha": "d317bc5d3e4b73767aa1aa011bd2375cd02d9e27",
+      "title": "碎纸复原模型与算法",
+      "pages": 31,
+      "reading_status": "key-sections-analyzed",
+      "pdf_pages_read": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        16,
+        17,
+        18,
+        19
+      ],
+      "pdf_pages_visually_verified": [
+        7
+      ],
+      "execution_status": "not-reproduced",
+      "award_status": "repository-label-only; not independently verified"
+    },
+    {
+      "id": "P24",
+      "path": "2-1国赛题目+论文/2016/A028.pdf",
+      "kind": "paper",
+      "repo": "personqianduixue/Math_Model",
+      "commit": "8783d0d822f89f98aa6182dd933cc2e9f3e2ddce",
+      "sha256": "fec358e74204481ecf17f2eb29bed92e1f7802e1f77f2c152c81af20b2b0c85e",
+      "size": 1791900,
+      "url": "https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/2-1%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE%2B%E8%AE%BA%E6%96%87/2016/A028.pdf",
+      "blob_sha": "a96cadf7d152b8f697b24f6f6ca2422182f89e7f",
+      "title": "论文标题（首页占位；内容为系泊系统设计）",
+      "pages": 44,
+      "reading_status": "key-sections-analyzed",
+      "pdf_pages_read": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "pdf_pages_visually_verified": [
+        6
+      ],
+      "execution_status": "not-reproduced",
+      "award_status": "repository-label-only; not independently verified"
+    },
+    {
+      "id": "P25",
+      "path": "2-1国赛题目+论文/2016/B022.pdf",
+      "kind": "paper",
+      "repo": "personqianduixue/Math_Model",
+      "commit": "8783d0d822f89f98aa6182dd933cc2e9f3e2ddce",
+      "sha256": "8c08d7dae701093583140b822c815adb7602754e9fc8d570e9b8d91a925c99ab",
+      "size": 1453440,
+      "url": "https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/2-1%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE%2B%E8%AE%BA%E6%96%87/2016/B022.pdf",
+      "blob_sha": "7040b56f8f6a269bd09ddcb223da970844540049",
+      "title": "小区开放对道路通行的影响",
+      "pages": 26,
+      "reading_status": "key-sections-analyzed",
+      "pdf_pages_read": [
+        1,
+        19,
+        20,
+        24,
+        25,
+        26
+      ],
+      "pdf_pages_visually_verified": [
+        20
+      ],
+      "execution_status": "table8-arithmetic-recomputed; not-full-reproduction",
+      "award_status": "repository-label-only; not independently verified"
+    },
+    {
+      "id": "P26",
+      "path": "美赛论文/2011美赛特等奖原版论文集/A-11199-Outstanding.pdf",
+      "kind": "paper",
+      "repo": "zhanwen/MathModel",
+      "commit": "cd5be91735ebf11d5ee52eb170e86a6d07131977",
+      "sha256": "cfe6d809748a929672bce5eb68b6c005c08d896337af33c79c89134b20644dc8",
+      "size": 827611,
+      "url": "https://github.com/zhanwen/MathModel/blob/cd5be91735ebf11d5ee52eb170e86a6d07131977/%E7%BE%8E%E8%B5%9B%E8%AE%BA%E6%96%87/2011%E7%BE%8E%E8%B5%9B%E7%89%B9%E7%AD%89%E5%A5%96%E5%8E%9F%E7%89%88%E8%AE%BA%E6%96%87%E9%9B%86/A-11199-Outstanding.pdf",
+      "blob_sha": "dce741b2dad4318e188067c2a223bba9c665a9e3",
+      "title": "Designing the Optimal Snowboard Half-Pipe",
+      "pages": 21,
+      "reading_status": "key-sections-analyzed",
+      "pdf_pages_read": [
+        1,
+        4,
+        7,
+        8,
+        19
+      ],
+      "pdf_pages_visually_verified": [
+        8
+      ],
+      "execution_status": "independent-local-mechanism-with-synthetic-parameters; not-full-reproduction",
+      "award_status": "repository-label-only; not independently verified"
+    },
+    {
+      "id": "P27",
+      "path": "美赛论文/2010美赛特等奖原版论文集/B-7273-Outstanding.pdf",
+      "kind": "paper",
+      "repo": "zhanwen/MathModel",
+      "commit": "cd5be91735ebf11d5ee52eb170e86a6d07131977",
+      "sha256": "e234c9a6a3f86012ab9fa52b41287ecb8811705f0514c561a582d6bf281c38f8",
+      "size": 327097,
+      "url": "https://github.com/zhanwen/MathModel/blob/cd5be91735ebf11d5ee52eb170e86a6d07131977/%E7%BE%8E%E8%B5%9B%E8%AE%BA%E6%96%87/2010%E7%BE%8E%E8%B5%9B%E7%89%B9%E7%AD%89%E5%A5%96%E5%8E%9F%E7%89%88%E8%AE%BA%E6%96%87%E9%9B%86/B-7273-Outstanding.pdf",
+      "blob_sha": "f8f91442e2ae6e5006a9304fab6e629e6fe9787c",
+      "title": "Tracking Serial Criminals with a Road Metric",
+      "pages": 19,
+      "reading_status": "key-sections-analyzed",
+      "pdf_pages_read": [
+        1,
+        4,
+        5,
+        6,
+        11,
+        17
+      ],
+      "pdf_pages_visually_verified": [
+        5
+      ],
+      "execution_status": "not-reproduced",
+      "award_status": "repository-label-only; not independently verified"
+    },
+    {
+      "id": "R08",
+      "path": "美赛论文/2011美赛特等奖原版论文集/Results/2011-Problem-A.pdf",
+      "kind": "contest-context",
+      "repo": "zhanwen/MathModel",
+      "commit": "cd5be91735ebf11d5ee52eb170e86a6d07131977",
+      "sha256": "bbffbbf4baede3de958ee2393ad89a28c18b7379827a11766d96853bfaf53bbc",
+      "size": 363147,
+      "url": "https://github.com/zhanwen/MathModel/blob/cd5be91735ebf11d5ee52eb170e86a6d07131977/%E7%BE%8E%E8%B5%9B%E8%AE%BA%E6%96%87/2011%E7%BE%8E%E8%B5%9B%E7%89%B9%E7%AD%89%E5%A5%96%E5%8E%9F%E7%89%88%E8%AE%BA%E6%96%87%E9%9B%86/Results/2011-Problem-A.pdf",
+      "blob_sha": "b1e301670c90dee9146c711bb8259e58b597f44a",
+      "title": "2011 MCM Press Release—April 15, 2011",
+      "pages": 119,
+      "reading_status": "first-page-context-excerpts-read",
+      "pdf_pages_read": [
+        1
+      ],
+      "pdf_pages_visually_verified": [],
+      "execution_status": "not-reproduced",
+      "award_status": "repository-label-only; not independently verified"
+    },
+    {
+      "id": "R09",
+      "path": "美赛论文/2010美赛特等奖原版论文集/Results/2010_MCM_Problem_B.pdf",
+      "kind": "contest-context",
+      "repo": "zhanwen/MathModel",
+      "commit": "cd5be91735ebf11d5ee52eb170e86a6d07131977",
+      "sha256": "c373540fecfda704acdc09e827c82528a5aecface52fde17c8b8646c644f8fce",
+      "size": 343752,
+      "url": "https://github.com/zhanwen/MathModel/blob/cd5be91735ebf11d5ee52eb170e86a6d07131977/%E7%BE%8E%E8%B5%9B%E8%AE%BA%E6%96%87/2010%E7%BE%8E%E8%B5%9B%E7%89%B9%E7%AD%89%E5%A5%96%E5%8E%9F%E7%89%88%E8%AE%BA%E6%96%87%E9%9B%86/Results/2010_MCM_Problem_B.pdf",
+      "blob_sha": "a746ca5af0938179a6d95db9dd70806424aa9e60",
+      "title": "2010 MCM Press Release—April 1, 2010",
+      "pages": 120,
+      "reading_status": "first-page-context-excerpts-read",
+      "pdf_pages_read": [
+        1
+      ],
+      "pdf_pages_visually_verified": [],
+      "execution_status": "not-reproduced",
+      "award_status": "repository-label-only; not independently verified"
     }
   ],
   "excluded_candidates": [

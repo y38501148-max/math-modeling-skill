@@ -152,3 +152,7 @@
 [W03]: https://github.com/zhanwen/MathModel/blob/cd5be91735ebf11d5ee52eb170e86a6d07131977/%E6%AF%94%E8%B5%9B%E5%BF%83%E5%BE%97.md
 [I01]: https://github.com/zhanwen/MathModel/blob/cd5be91735ebf11d5ee52eb170e86a6d07131977/README.md
 [I02]: https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/README.md
+
+## 新增六组案例
+
+[案例补充C10–C15](casebook-expanded.md)：葡萄酒评价（同题两解）、碎纸复原、系泊系统、开放小区交通、半管滑道、地理概率模型。合计新增7篇，连同本页14篇，共21篇关键章节研读。

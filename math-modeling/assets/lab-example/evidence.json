@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "artifacts": [
+    {
+      "id": "run",
+      "path": "results.json",
+      "sha256": "ee6362cfe943b015c37ece709a21f3031e69ed403427067f267b5d0d6cadcbe8"
+    }
+  ],
+  "claims": [
+    {
+      "id": "height-0",
+      "artifact": "run",
+      "pointer": "/halfpipe/scenarios/0/height_m",
+      "value": 5.9091,
+      "abs_tol": 5e-05,
+      "unit": "m",
+      "status": "synthetic",
+      "location": "manuscript table row 1"
+    },
+    {
+      "id": "height-1",
+      "artifact": "run",
+      "pointer": "/halfpipe/scenarios/1/height_m",
+      "value": 5.8152,
+      "abs_tol": 5e-05,
+      "unit": "m",
+      "status": "synthetic",
+      "location": "manuscript table row 2"
+    },
+    {
+      "id": "height-2",
+      "artifact": "run",
+      "pointer": "/halfpipe/scenarios/2/height_m",
+      "value": 5.7213,
+      "abs_tol": 5e-05,
+      "unit": "m",
+      "status": "synthetic",
+      "location": "manuscript table row 3"
+    }
+  ]
+}

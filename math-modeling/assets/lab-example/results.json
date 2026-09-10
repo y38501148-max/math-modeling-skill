@@ -1,0 +1,116 @@
+{
+  "data_status": "synthetic teaching examples; P25 values explicitly attributed",
+  "versions": {
+    "python": "3.14.4",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "script_sha256": "08dddd94fe02ff60e6c528aa15a733e7af99e6dfa70b1355c6edd3e718b7825a",
+  "evaluation": {
+    "weights": [
+      0.5714285714285715,
+      0.28571428571428564,
+      0.14285714285714288
+    ],
+    "ci": 0.0,
+    "cr": 0.0,
+    "topsis": [
+      0.0,
+      0.5,
+      1.0
+    ]
+  },
+  "pcr": {
+    "heldout_max_error": 0.0
+  },
+  "forecast": {
+    "origins": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "gm_rmse": 0.0015540788631792349,
+    "moving_average_rmse": 0.6101331806317599
+  },
+  "optimization": {
+    "lp_profit": 11.666666666666666,
+    "integer_profit": 11.0,
+    "enumeration_profit": 11,
+    "integer_x": [
+      3.0,
+      1.0
+    ],
+    "max_violation": 0.0
+  },
+  "graph": {
+    "negative_edge_distance": 1.0,
+    "zero_edge_distance": 1.0,
+    "max_flow": 2.0,
+    "cut_capacity": 2.0,
+    "conservation_error": 0.0
+  },
+  "search": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "proposals_per_seed": 2000,
+    "exact_tour": 4.976263497554426,
+    "seed_costs": [
+      4.976263497554426,
+      4.976263497554426,
+      4.976263497554426,
+      4.976263497554426,
+      4.976263497554426
+    ],
+    "max_gap": 0.0
+  },
+  "simulation": {
+    "initial_cars": 4,
+    "final_cars": 4,
+    "heat_errors": [
+      0.001062511783011033,
+      0.00026494995890052886,
+      6.619528366480498e-05
+    ]
+  },
+  "halfpipe": {
+    "radius_m": 5.0,
+    "entry_speed_m_s": 12.0,
+    "friction": 0.02,
+    "scenarios": [
+      {
+        "flat_m": 0.0,
+        "exit_speed_m_s": 10.767358216136312,
+        "height_m": 5.9090725257185595,
+        "tolerance_delta": 3.4578206964397395e-09
+      },
+      {
+        "flat_m": 5.0,
+        "exit_speed_m_s": 10.681455241262835,
+        "height_m": 5.815162388945019,
+        "tolerance_delta": 3.4568437001780694e-09
+      },
+      {
+        "flat_m": 10.0,
+        "exit_speed_m_s": 10.59485578890079,
+        "height_m": 5.721252252171489,
+        "tolerance_delta": 3.456225527997958e-09
+      }
+    ]
+  },
+  "paper_p25": {
+    "source": "P25 PDF p20 Table8; arithmetic check only",
+    "left_ratio": 0.1796565389696169,
+    "right_ratio": 1.9134199134199137,
+    "claimed_greater_equal_holds": false
+  }
+}

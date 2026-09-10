@@ -1,0 +1,36 @@
+[
+  {
+    "case": "positive",
+    "input": "3\n0 4 9\n0 0 3\n0 0 0\n",
+    "expected": 7,
+    "observed": 7,
+    "original_execution": true,
+    "source": "A196",
+    "matches": true,
+    "source_sha256": "b892db30f3439a9c789fc1f21d3acf0db772e3303f0983b27923769fc959b0ec",
+    "source_url": "https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/3-1%E7%AE%97%E6%B3%95-Algorithms_MathModels/GraphTheory%28%E5%9B%BE%E8%AE%BA%29/floyd%E6%B1%82%E8%A7%A3%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/floyd.cpp",
+    "compiler": "Apple clang version 17.0.0 (clang-1700.6.3.2)",
+    "compile_flags": [
+      "-std=c++11",
+      "-w"
+    ],
+    "runtime_timeout_seconds": 5
+  },
+  {
+    "case": "negative",
+    "input": "3\n0 4 5\n0 0 -3\n0 0 0\n",
+    "expected": 1,
+    "observed": 5,
+    "original_execution": true,
+    "source": "A196",
+    "matches": false,
+    "source_sha256": "b892db30f3439a9c789fc1f21d3acf0db772e3303f0983b27923769fc959b0ec",
+    "source_url": "https://github.com/personqianduixue/Math_Model/blob/8783d0d822f89f98aa6182dd933cc2e9f3e2ddce/3-1%E7%AE%97%E6%B3%95-Algorithms_MathModels/GraphTheory%28%E5%9B%BE%E8%AE%BA%29/floyd%E6%B1%82%E8%A7%A3%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/floyd.cpp",
+    "compiler": "Apple clang version 17.0.0 (clang-1700.6.3.2)",
+    "compile_flags": [
+      "-std=c++11",
+      "-w"
+    ],
+    "runtime_timeout_seconds": 5
+  }
+]

@@ -114,6 +114,20 @@ class CatalogTests(unittest.TestCase):
         for source in sources:
             self.assertIn((source['repo'],source['path'],source['blob_sha'],source['commit']),keys)
             self.assertIn(source['commit'],source['url'])
+    def test_algorithm_inventory_and_reading_counts(self):
+        audit=json.loads((SKILL/'references/algorithm-review.json').read_text())
+        self.assertEqual(len(audit['sources']),audit['downloaded_and_hash_verified'])
+        self.assertEqual(sum(s['reading_status']=='static-code-reviewed' for s in audit['sources']),197)
+        keys={(r['repo'],r['path'],r['blob_sha'],r['commit']) for r in self.rows}
+        for source in audit['sources']:
+            self.assertIn((source['repo'],source['path'],source['blob'],source['commit']),keys)
+    def test_source_cli_supports_all_three_review_layers(self):
+        for source_id in ['P25','A196','T057']:
+            result=subprocess.run([sys.executable,str(SKILL/'scripts/catalog.py'),'source',source_id],capture_output=True,text=True)
+            self.assertEqual(result.returncode,0,result.stderr)
+            record=json.loads(result.stdout)
+            self.assertEqual(record['id'],source_id)
+            self.assertIn(record['commit'],record['url'])
     def test_query_is_and_matched_and_case_insensitive(self):
         self.assertEqual(catalog.search(self.rows,'2018 a229'),catalog.search(self.rows,'2018 A229'))
         self.assertEqual(catalog.search(self.rows,'2017 A229'),[])

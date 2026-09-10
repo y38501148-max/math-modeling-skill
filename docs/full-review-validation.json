@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-10",
+  "unit_tests": {
+    "passed": 60,
+    "failed": 0,
+    "skipped": 0,
+    "command": "python -m unittest discover -s tests -v",
+    "groups": {
+      "standard_library_tools": 39,
+      "numerical_models": 21
+    }
+  },
+  "skill_format": "PASS",
+  "internal_markdown_links": "PASS",
+  "diff_whitespace": "PASS",
+  "example_numeric_provenance": {
+    "status": "PASS",
+    "scope": "Declared file hashes and numeric fields only; no paper parsing or model validation.",
+    "artifact_count": 1,
+    "claim_count": 3,
+    "checks": [
+      {
+        "claim": "height-0",
+        "actual_scaled": "5.9090725257185595",
+        "declared": "5.9091",
+        "difference": "0.0000274742814405",
+        "tolerance": "0.00005",
+        "matches": true
+      },
+      {
+        "claim": "height-1",
+        "actual_scaled": "5.815162388945019",
+        "declared": "5.8152",
+        "difference": "0.000037611054981",
+        "tolerance": "0.00005",
+        "matches": true
+      },
+      {
+        "claim": "height-2",
+        "actual_scaled": "5.721252252171489",
+        "declared": "5.7213",
+        "difference": "0.000047747828511",
+        "tolerance": "0.00005",
+        "matches": true
+      }
+    ],
+    "errors": [],
+    "warnings": [
+      {
+        "claim": "height-0",
+        "issue": "synthetic: not real-world validation"
+      },
+      {
+        "claim": "height-1",
+        "issue": "synthetic: not real-world validation"
+      },
+      {
+        "claim": "height-2",
+        "issue": "synthetic: not real-world validation"
+      }
+    ]
+  },
+  "visual_review": {
+    "artifact": "math-modeling/assets/lab-example/halfpipe.png",
+    "status": "viewed; labels and curves legible"
+  },
+  "limits": [
+    "197 code files statically reviewed; only one upstream C++ program executed",
+    "MATLAB programs and upstream document templates not executed",
+    "Numerical modeling examples use synthetic inputs; historical papers not fully reproduced"
+  ]
+}

@@ -1,3 +1,7 @@
+# 当前版本验证总览
+
+本轮60项测试通过（含21项数值测试，零跳过），并完成原C++正/反例、半管图像检查和3条文稿数值证据核验。机器可读检查摘要见[full-review-validation.json](full-review-validation.json)。具体覆盖、版本与局限见[三仓库报告](三仓库全量优化报告.md)、[本轮数值](../math-modeling/assets/lab-example/results.json)。以下保留前两轮历史记录，数量和执行范围以本轮报告为准。
+
 # 验证报告
 
 日期：2026-09-10。

@@ -191,16 +191,20 @@
     "mcmicm": 868,
     "cumcm": 2905
   },
-  "core_papers": 14,
-  "core_topics": 9,
+  "core_papers": 21,
+  "core_topics": 15,
   "review_documents": 7,
   "core_problem_documents": 4,
-  "inspected_code_examples": 4,
-  "source_records": 35,
+  "inspected_code_examples": 197,
+  "source_records": 44,
   "notes": [
     "All Git trees are complete; archives are indexed as files, not expanded.",
     "Unique blob means byte-identical content. OCR/watermark variants may remain semantic duplicates.",
     "Full file inventory is not full-text reading.",
-    "Root licenses not identified; nested algorithm directory has a separate MIT license."
-  ]
+    "Root licenses not identified; nested algorithm directory has a separate MIT license.",
+    "197 reviewed code files include helper files and byte duplicates; not a count of independent algorithms. 2 large drawing/test harness files downloaded but not reviewed."
+  ],
+  "context_news_documents": 2,
+  "downloaded_code_files": 199,
+  "original_code_programs_executed": 1
 }

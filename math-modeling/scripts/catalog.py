@@ -56,7 +56,9 @@ def main():
     if args.command == 'stats':
         result = json.loads((REFS / 'inventory-summary.json').read_text(encoding='utf-8'))
     elif args.command == 'source':
-        sources = json.loads((REFS / 'sources.json').read_text(encoding='utf-8'))['sources']
+        sources = []
+        for filename in ('sources.json', 'algorithm-review.json', 'implementation-review.json'):
+            sources.extend(json.loads((REFS / filename).read_text(encoding='utf-8'))['sources'])
         result = next((s for s in sources if s['id'].casefold() == args.id.casefold()), None)
         if result is None:
             parser.error(f'Unknown reviewed source: {args.id}')
