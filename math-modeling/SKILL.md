@@ -23,6 +23,8 @@ description: 面向本科数学建模（全国大学生数学建模竞赛、MCM/
 | 学习、复盘优秀论文 | 选同题不同解，比较假设、验证和代价 | [案例库](references/casebook.md)、[新增案例](references/casebook-expanded.md) |
 | 查找三个来源仓库的资料 | 按赛事和题目检索，再确认原文 | [来源地图](references/source-map.md)、[模板实现评析](references/template-implementation-review.md) |
 
+涉及2026本科国赛论文写作、排版或提交时，先读 [2026国赛格式与提交规则](references/cumcm-2026-format.md)，再结合该赛区要求；从建模开始保存完整代码、支撑材料清单及真实AI使用记录。规则仅按赛事和年份启用，不套用到美赛或课程项目。
+
 只读与当前任务相关的参考文件。已给出的工具、语言、模板和授权直接沿用；保持原任务范围，完整项目按需串联各阶段，单问或局部修改不强制重走全流程。需要启动完整项目时，可使用 [建模任务单](assets/modeling-brief.md) 的结构，不必为一次简短咨询创建文件。
 
 ## 从题目到模型
