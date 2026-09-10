@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-10",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "synthetic cosine linearization",
+      "data": "synthetic only; not contest attachments",
+      "rank": 3,
+      "condition_number": 4.932324681368993,
+      "recovered_r": 5.0,
+      "recovered_phi": 0.30000000000000004,
+      "recovered_offset": 2.000000000000001,
+      "max_abs_residual": 8.881784197001252e-16
+    },
+    {
+      "name": "P04 p12 arithmetic",
+      "cost_change_percent": 1.8929070201157083,
+      "completion_change_percentage_points": 24.499999999999993,
+      "relative_completion_change_percent": 39.452495974235106
+    },
+    {
+      "name": "P08 p16 arithmetic",
+      "achieved_ratio": 0.9947916666666666,
+      "relative_bound_gap": 0.005208333333333333
+    },
+    {
+      "name": "P05 p14 table threshold interpolation",
+      "interpolated_crossing_seconds": 3322.74193548388,
+      "duration_until_3600_seconds": 277.25806451612016,
+      "assumption": "Linear interpolation between the two printed samples and monotone continuation above threshold until 3600s; not a full-time-series reproduction."
+    }
+  ]
+}

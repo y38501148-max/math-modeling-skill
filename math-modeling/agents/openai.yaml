@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学建模"
+  short_description: "面向本科国赛与美赛的建模、验证、论文写作与优秀论文研读"
+  default_prompt: "使用 $math-modeling 分析这道本科数学建模题，先明确各问交付物与可检验的基线模型，再完成求解、验证和论文组织。"

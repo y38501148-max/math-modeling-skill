@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "units": "seconds",
+  "horizon": 30,
+  "resources": {
+    "vehicle": {"unavailable": [[20, 25]]},
+    "machine": {"unavailable": []}
+  },
+  "operations": [
+    {"id": "load", "resources": ["vehicle", "machine"], "start": 0, "end": 2, "min_duration": 2},
+    {"id": "process", "resources": ["machine"], "start": 2, "end": 10, "min_duration": 8, "predecessors": ["load"]},
+    {"id": "vehicle_other_move", "resources": ["vehicle"], "start": 2, "end": 6, "min_duration": 4},
+    {"id": "unload", "resources": ["vehicle", "machine"], "start": 10, "end": 12, "min_duration": 2, "predecessors": ["process", {"id": "vehicle_other_move", "lag": 4}]}
+  ]
+}
